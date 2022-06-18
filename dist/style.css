@@ -1,0 +1,43 @@
+ul {
+  padding: 10px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  background-color: blue;
+}
+
+.square {
+  background-color: blue;
+}
+
+.dot.dot1 {
+  background-color: red;
+  color: red;
+}
+
+.dot.dot3 {
+  background-color: yellow;
+  color: yellow;
+}
+
+.dot {
+  width: 45px;
+  height: 45px;
+  background-color: whitesmoke;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#board {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+}
